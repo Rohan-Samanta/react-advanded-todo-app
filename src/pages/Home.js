@@ -10,7 +10,7 @@ import { Modal, Button } from "react-bootstrap";
 import { ExportCsv, ExportPdf } from "@material-table/exporters";
 import { Paper } from "@mui/material";
 
-const lookup = { true: "Complete", false: "Incomplete" };
+const lookup = { true: "Completed", false: "Incompleted" };
 
 const columns = [
   { title: "USER ID", field: "id" },
